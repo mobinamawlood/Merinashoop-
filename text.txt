@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Merina.shoop | فروشگاه لوازم آرایشی</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f8f4fb;
+      color: #4d3d56;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #e5d1f2;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background-color: #d7bde2;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .hero h2 {
+      font-size: 28px;
+      color: #7a5585;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      background-color: white;
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+    }
+    footer {
+      background-color: #d7bde2;
+      text-align: center;
+      padding: 20px;
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Merina.shoop</h1>
+    <p>فروشگاه آنلاین لوازم آرایشی</p>
+  </header>
+  <nav>
+    <a href="#">لب</a>
+    <a href="#">چشم</a>
+    <a href="#">صورت</a>
+    <a href="#">براش و ابزار</a>
+  </nav>
+  <div class="hero">
+    <h2>زیبایی با مرینا شاپ ✨</h2>
+    <p>جدیدترین محصولات آرایشی با بهترین قیمت</p>
+  </div>
+  <section class="products">
+    <div class="product">
+      <h3>رژ لب مخملی</h3>
+      <p>قیمت: ۱۸۰٬۰۰۰ تومان</p>
+    </div>
+    <div class="product">
+      <h3>ریمل حجم‌دهنده</h3>
+      <p>قیمت: ۲۳۰٬۰۰۰ تومان</p>
+    </div>
+    <div class="product">
+      <h3>کرم‌پودر مات</h3>
+      <p>قیمت: ۳۲۰٬۰۰۰ تومان</p>
+    </div>
+  </section>
+  <footer>
+    <p>ارتباط با ما در اینستاگرام: <a href="https://instagram.com/merina.shoop" style="color:white">@merina.shoop</a></p>
+  </footer>
+</body>
+</html>
